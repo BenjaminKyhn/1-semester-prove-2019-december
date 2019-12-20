@@ -2,7 +2,7 @@ package Quiz;
 
 import java.util.ArrayList;
 
-public class Sporgsmaal {
+public class Sporgsmaal implements Translatable {
     private String sporgsmaal = "";
     private double point;
     private ArrayList<Svar> svarMuligheder;
@@ -13,7 +13,7 @@ public class Sporgsmaal {
     }
 
     public void setSporgsmaal(String sporgsmaal) {
-        if (sporgsmaal.length() > 10)
+        if (sporgsmaal.length() > 100)
             throw new IllegalArgumentException("Spørgsmål må maks. være 100 tegn.");
         this.sporgsmaal = sporgsmaal;
     }
@@ -40,5 +40,14 @@ public class Sporgsmaal {
 
     public void setKorrektSvarIndex(int korrektSvarIndex) {
         this.korrektSvarIndex = korrektSvarIndex;
+    }
+
+    @Override
+    public String translate(Language language) {
+        if (language == Language.DANISH)
+            return "Oversættelse ikke mulig endnu.";
+        if (language == Language.ENGLISH)
+            return "Translation is not available yet.";
+        return null;
     }
 }
