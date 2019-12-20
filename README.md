@@ -1,3 +1,3 @@
 # 1. semester prøve / programmering 2019 december
 
-Opgaven kan tilgås på [dette link](https://docs.google.com/document/d/1jBYgOTbtFgv4i-82umFquU_zu5mtbJ_F05aWe4ZmDJw/edit#) på eksamensdagen.
+Opgaverne 1-10 er løst og kan findes i repoet. Jeg følte at jeg kunne løse alle opgaverne - dog drillede opgave 6 rigtig meget. Det, der skabte problemer var, at mit svarMuligheder-variabel er en ArrayList<Svar>, og det er arraylistens svartype, som gav problemer. Jeg giver mig i kast med opgave 11, men ved ikke, om jeg kan nå det.
