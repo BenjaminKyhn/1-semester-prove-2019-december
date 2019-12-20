@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 public class QuickmathsTest {
 
+    /**Tester Quickmarths sum()-metode*/
     @Test
     public void testSum() {
         Quickmaths quickmaths = new Quickmaths();
@@ -11,6 +12,7 @@ public class QuickmathsTest {
         assertEquals(15, quickmaths.sum(7,8));
     }
 
+    /**Tester Quickmaths gennemsnit()-metode*/
     @Test
     public void testGennemsnit() {
         Quickmaths quickmaths = new Quickmaths();

@@ -39,7 +39,7 @@ public class Loops {
         System.out.println();
     }
 
-    //Tager imod input fra brugeren indtil der indtastes 0
+    /**Tager imod input fra brugeren indtil der indtastes 0*/
     public void waitingFor0() {
         int brugerInput = 1;
         Scanner input = new Scanner(System.in);

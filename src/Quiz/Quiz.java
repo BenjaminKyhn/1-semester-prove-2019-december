@@ -4,17 +4,18 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Quiz {
-    //Main metode, der starter programmet
+    /**
+     * Main metode, der starter programmet
+     */
     public static void main(String[] args) {
-        //Laver et sporgsmaalobjekt
+        /**Laver et sporgsmaalobjekt*/
         Sporgsmaal sporgsmaal = new Sporgsmaal();
 
-        //Laver et scannerobjekt
+        /**Laver et scannerobjekt*/
         Scanner input = new Scanner(System.in);
 
-        //Indtast spørgsmål
+        /**Indtast spørgsmål*/
         System.out.println("Indtast spørgsmålet: ");
-
         while (true) {
             try {
                 sporgsmaal.setSporgsmaal(input.nextLine());
@@ -24,11 +25,11 @@ public class Quiz {
             }
         }
 
-        //Indtast point
+        /**Indtast point*/
         System.out.println("Indtast 2-4 point: ");
         sporgsmaal.setPoint(input.nextDouble());
 
-        //Loop til at indtaste svarmuligheder
+        /**Loop til at indtaste svarmuligheder*/
         ArrayList<Svar> svarMuligheder = new ArrayList<>();
         while (true) {
             System.out.println("Vil du indtaste en svarmulighed? (ja/nej): ");
@@ -45,14 +46,14 @@ public class Quiz {
             }
         }
 
-        //Tilføjer svarmulighederne til spørgsmålet
+        /**Tilføjer svarmulighederne til spørgsmålet*/
         sporgsmaal.setSvarMuligheder(svarMuligheder);
 
-        //Indtast indeks til det korrekte svar
+        /**Indtast indeks til det korrekte svar*/
         System.out.println("Hvilket af de indtastede spørgsmål er det korrekte? (angiv spørgsmålsnummer med en integer: ");
         sporgsmaal.setKorrektSvarIndex(input.nextInt() - 1);
 
-        //Afslut indtastningen
+        /**Afslut indtastningen*/
         System.out.println("Spørgsmålet er gemt.");
     }
 }

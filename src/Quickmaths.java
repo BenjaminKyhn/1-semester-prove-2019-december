@@ -1,21 +1,21 @@
 import java.util.Scanner;
 
 public class Quickmaths {
-    //Klassen variable
+    /**Klassen variable*/
     private int a;
     private int b;
 
-    //Metode til at udregne genenmsnit af a og b
+    /**Metode til at udregne genenmsnit af a og b*/
     int gennemsnit(int a, int b){
         return (a+b)/2;
     }
 
-    //Metode til at summen af a og b
+    /**Metode til at summen af a og b*/
     int sum (int a, int b){
         return a+b;
     }
 
-    //Metode til at starte lommeregneren, som fortsætter uendeligt
+    /**Metode til at starte lommeregneren, som fortsætter uendeligt*/
     public void start(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -28,11 +28,11 @@ public class Quickmaths {
         }
     }
 
-    //Metode til at starte programmet
+    /**Metode til at starte programmet*/
     public static void main(String[] args) {
-        //Laver et nyt Quickmathsobjekt ved navn lommeregner
+        /**Laver et nyt Quickmathsobjekt ved navn lommeregner*/
         Quickmaths lommeregner = new Quickmaths();
-        //Kalder lommeregnerens startmetode
+        /**Kalder lommeregnerens startmetode*/
         lommeregner.start();
     }
 }

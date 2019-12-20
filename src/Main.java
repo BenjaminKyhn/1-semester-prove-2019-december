@@ -7,8 +7,8 @@ public class Main {
     }
 
     /**
-     * @param navn
-     * @return
+     * @param navn skriv det navn, som du vil sige hello til
+     * @return returnerer Hello "navn"!
      */
     //Metode, der udskriver Hello "Navn"!, eller Hello World!, hvis der ikke gives et navn som parameter
     public static String hello(String navn) {

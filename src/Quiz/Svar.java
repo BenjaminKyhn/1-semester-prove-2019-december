@@ -1,16 +1,16 @@
 package Quiz;
 
 public class Svar implements Translatable {
-    // Svaret variable
+    /**Svaret variable*/
     private String svar = "";
     private int svarId;
 
-    // Svarets constructor
+    /**Svarets constructor*/
     public Svar(int svarId){
         this.svarId = svarId;
     }
 
-    // Svarets yderligere metoder
+    /**Svarets yderligere metoder*/
     public String getSvar() {
         return svar;
     }
@@ -26,7 +26,7 @@ public class Svar implements Translatable {
         return svar;
     }
 
-    // Oversættelsesmetode, der indtil videre kun udskriver, at oversættelsen endnu ikke er implementeret
+    /**Oversættelsesmetode, der indtil videre kun udskriver, at oversættelsen endnu ikke er implementeret*/
     @Override
     public String translate(Language language) {
         if (language == Language.DANISH)
