@@ -11,7 +11,7 @@ import java.util.Date;
 
 public class Person {
 
-    // TODO Ret nedenstående datatyper
+    //Personklassens variable
     String navn; // Test Testesen
     byte alder; // 18
     String by; // Næstved
@@ -27,14 +27,18 @@ public class Person {
     byte[] eksamensKarakterer; // 7, 12, -3, 4, 2, 10
     Date opdateretDato; // Sun Jan 08 00:00:00 CET 1978
 
+    //toString-metoden overrides til at udskrive navn, by, alder, højde og vægt (double typecastet til integer)
     @Override
     public String toString() {
         return "Navn: " + navn + "\nBy: " + by + "\nAlder: " + alder + "\nHøjde: " + hojde + "\nVægt: " + (int)vaegt;
     }
 
+    //Main metode starter programmet
     public static void main(String[] args) {
-
+        //Lavet et nyt personobjekt
         Person person = new Person();
+
+        //Sætter variable for personen
         person.navn = "Test Testesen";
         person.alder = 18;
         person.by = "Næstved";
@@ -64,6 +68,7 @@ public class Person {
 
         System.out.println();
 
+        //Kalder personens toString-metode og udskriver den i konsollen
         System.out.println(person.toString());
     }
 

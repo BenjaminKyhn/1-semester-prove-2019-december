@@ -3,15 +3,18 @@ package Quiz;
 import java.util.ArrayList;
 
 public class Sporgsmaal implements Translatable {
+    // Spørgsmålets variable
     private String sporgsmaal = "";
     private double point;
     private ArrayList<Svar> svarMuligheder;
     private int korrektSvarIndex;
 
+    // Spørgsmålets metoder
     public String getSporgsmaal() {
         return sporgsmaal;
     }
 
+    // Giver en fejl, hvis brugeren forsøger at indtaste et spørgsmål, der er over 100 tegn
     public void setSporgsmaal(String sporgsmaal) {
         if (sporgsmaal.length() > 100)
             throw new IllegalArgumentException("Spørgsmål må maks. være 100 tegn.");
@@ -42,6 +45,7 @@ public class Sporgsmaal implements Translatable {
         this.korrektSvarIndex = korrektSvarIndex;
     }
 
+    // Oversættelsesmetode, der indtil videre kun udskriver, at oversættelsen endnu ikke er implementeret
     @Override
     public String translate(Language language) {
         if (language == Language.DANISH)
