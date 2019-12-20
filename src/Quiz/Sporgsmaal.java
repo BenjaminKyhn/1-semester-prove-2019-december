@@ -13,6 +13,8 @@ public class Sporgsmaal {
     }
 
     public void setSporgsmaal(String sporgsmaal) {
+        if (sporgsmaal.length() > 10)
+            throw new IllegalArgumentException("Spørgsmål må maks. være 100 tegn.");
         this.sporgsmaal = sporgsmaal;
     }
 

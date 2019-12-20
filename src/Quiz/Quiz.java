@@ -10,7 +10,16 @@ public class Quiz {
 
         //Indtast spørgsmål
         System.out.println("Indtast spørgsmålet: ");
-        sporgsmaal.setSporgsmaal(input.nextLine());
+
+        while(true){
+            try{
+                sporgsmaal.setSporgsmaal(input.nextLine());
+                break;
+            }
+            catch (IllegalArgumentException e){
+                System.out.println("Spørgsmål må maks. være 100 tegn. Prøv igen: ");
+            }
+        }
 
         //Indtast point
         System.out.println("Indtast 2-4 point: ");
@@ -26,7 +35,7 @@ public class Quiz {
                 break;
             else{
                 Svar svar = new Svar(svarId);
-                System.out.println("Indtast svarmuligheder og afslut med 'slut': ");
+                System.out.println("Indtast svarmulighed: ");
                 svar.setSvar(input.next());
                 svarMuligheder.add(svar);
                 svarId++;
@@ -43,5 +52,4 @@ public class Quiz {
         //Afslut indtastningen
         System.out.println("Spørgsmålet er gemt.");
     }
-
 }
