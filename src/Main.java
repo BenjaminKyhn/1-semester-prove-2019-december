@@ -7,10 +7,17 @@
 
 public class Main {
 
-    // TODO Din kode her
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+        System.out.println(hello("András"));
+        System.out.println(hello(""));
 
-    public String hello(String navn) {
-        return "";
+    }
+
+    public static String hello(String navn) {
+        if (navn.equals(""))
+            return "Hello World!";
+        return "Hello " + navn + "!";
     }
 
 }
