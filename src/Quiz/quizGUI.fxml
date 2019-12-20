@@ -53,9 +53,9 @@
                   <Label fx:id="svar1" text="svar1" GridPane.columnIndex="1" />
                   <Label fx:id="svar2" text="svar2" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                   <Label fx:id="svar3" text="svar3" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                  <Button mnemonicParsing="false" text="1." />
-                  <Button mnemonicParsing="false" text="2." GridPane.rowIndex="1" />
-                  <Button mnemonicParsing="false" text="3." GridPane.rowIndex="2" />
+                  <Button fx:id="button1" mnemonicParsing="false" onMouseClicked="#button1" text="1." />
+                  <Button fx:id="button2" mnemonicParsing="false" onMouseClicked="#button2" text="2." GridPane.rowIndex="1" />
+                  <Button fx:id="button3" mnemonicParsing="false" onMouseClicked="#button3" text="3." GridPane.rowIndex="2" />
                </children>
             </GridPane>
          </children>
@@ -65,5 +65,6 @@
             <Font name="Impact" size="30.0" />
          </font>
       </Label>
+      <Label fx:id="feedback" layoutX="357.0" layoutY="42.0" />
    </children>
 </AnchorPane>
