@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9fff974-7d5d-4ad8-b471-055b4430f06e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VEkvw4lUjbjNo9zl0RiPvuwOP0" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Quiz">
+    <configuration name="Loops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loops" />
+      <module name="1-semester-prove-2019-december" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Person" />
+      <module name="1-semester-prove-2019-december" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Quickmaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Quickmaths" />
+      <module name="1-semester-prove-2019-december" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Quiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Quiz.Quiz" />
+      <module name="1-semester-prove-2019-december" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Quiz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickmathsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="1-semester-prove-2019-december" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuickmathsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Quiz" />
+        <item itemvalue="Application.Person" />
+        <item itemvalue="Application.Loops" />
+        <item itemvalue="JUnit.QuickmathsTest" />
+        <item itemvalue="Application.Quickmaths" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9fff974-7d5d-4ad8-b471-055b4430f06e" name="Default Changelist" comment="" />
+      <created>1576825875064</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576825875064</updated>
+      <workItem from="1576825876296" duration="13507000" />
+      <workItem from="1576839526990" duration="31000" />
+      <workItem from="1576840076385" duration="281000" />
+      <workItem from="1576841568957" duration="309000" />
+    </task>
+    <task id="LOCAL-00001" summary="Opgave 1 færdig">
+      <created>1576826307905</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576826307905</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Opgave 2 tests bestået">
+      <created>1576826471808</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576826471808</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Opgave 3 færdig">
+      <created>1576828253630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576828253630</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Opgave 4 færdig">
+      <created>1576828975302</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576828975302</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Opgave 5">
+      <created>1576830213433</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576830213433</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Opgave 5 færdig">
+      <created>1576830740849</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576830740849</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Opgave 6 klasser oprettet og skrevet">
+      <created>1576835370830</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576835370830</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Opgave 6 exception tilføjet">
+      <created>1576836607606</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576836607606</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Opgave 6 exception tilføjet">
+      <created>1576837883472</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576837883472</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Opgave 7 færdig">
+      <created>1576839275683</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576839275683</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Opgave 9 GUI tilføjet">
+      <created>1576845174420</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576845174420</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Opgave 1 færdig" />
+    <MESSAGE value="Opgave 2 tests bestået" />
+    <MESSAGE value="Opgave 3 færdig" />
+    <MESSAGE value="Opgave 4 færdig" />
+    <MESSAGE value="Opgave 5" />
+    <MESSAGE value="Opgave 5 færdig" />
+    <MESSAGE value="Opgave 6 klasser oprettet og skrevet" />
+    <MESSAGE value="Opgave 6 exception tilføjet" />
+    <MESSAGE value="Opgave 7 færdig" />
+    <MESSAGE value="Opgave 9 GUI tilføjet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Opgave 9 GUI tilføjet" />
+  </component>
+</project>

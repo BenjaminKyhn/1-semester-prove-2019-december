@@ -5,6 +5,10 @@ public class Svar implements Translatable {
     private String svar = "";
     private int svarId;
 
+    public Svar(String svar){
+        this.svar = svar;
+    }
+
     /**Svarets constructor*/
     public Svar(int svarId){
         this.svarId = svarId;

@@ -13,12 +13,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Quiz.QuizGUI">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Quiz.quizGUIController">
    <children>
       <BorderPane layoutX="37.0" layoutY="101.0" prefHeight="282.0" prefWidth="278.0">
          <top>
-            <Label alignment="TOP_LEFT" text="1. Hvad hedder min hund?" textAlignment="CENTER" BorderPane.alignment="CENTER">
+            <Label fx:id="sporgsmaalId" alignment="TOP_LEFT" text="Hvad hedder min hund?" textAlignment="CENTER" BorderPane.alignment="CENTER">
                <font>
                   <Font size="22.0" />
                </font>
@@ -51,9 +50,9 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Label text="Anton" GridPane.columnIndex="1" />
-                  <Label text="Egon" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                  <Label text="Børge" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Label fx:id="svar1" text="svar1" GridPane.columnIndex="1" />
+                  <Label fx:id="svar2" text="svar2" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label fx:id="svar3" text="svar3" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                   <Button mnemonicParsing="false" text="1." />
                   <Button mnemonicParsing="false" text="2." GridPane.rowIndex="1" />
                   <Button mnemonicParsing="false" text="3." GridPane.rowIndex="2" />

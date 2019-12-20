@@ -4,10 +4,24 @@ import java.util.ArrayList;
 
 public class Sporgsmaal implements Translatable {
     /**Spørgsmålets variable*/
+    private int id;
     private String sporgsmaal = "";
     private double point;
     private ArrayList<Svar> svarMuligheder;
     private int korrektSvarIndex;
+
+    public Sporgsmaal(){}
+
+    public Sporgsmaal(String sporgsmaal){
+        this.sporgsmaal = sporgsmaal;
+    }
+
+    public Sporgsmaal(int id, String sporgsmaal, double point, int korrektSvarIndex){
+        this.id = id;
+        this.sporgsmaal = sporgsmaal;
+        this.point = point;
+        this.korrektSvarIndex = korrektSvarIndex;
+    }
 
     /**Spørgsmålets metoder*/
     public String getSporgsmaal() {
