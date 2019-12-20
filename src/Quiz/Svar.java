@@ -1,8 +1,8 @@
 package Quiz;
 
 public class Svar {
-    String svar = "";
-    int svarId;
+    private String svar = "";
+    private int svarId;
 
     public Svar(int svarId){
         this.svarId = svarId;
