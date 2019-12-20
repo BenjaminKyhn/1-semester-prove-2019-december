@@ -27,7 +27,6 @@ public class Person {
     byte[] eksamensKarakterer; // 7, 12, -3, 4, 2, 10
     Date opdateretDato; // Sun Jan 08 00:00:00 CET 1978
 
-    // TODO Vis eksempler på typecasting
     @Override
     public String toString() {
         return "Navn: " + navn + "\nBy: " + by + "\nAlder: " + alder + "\nHøjde: " + hojde + "\nVægt: " + (int)vaegt;
@@ -37,6 +36,7 @@ public class Person {
 
         Person person = new Person();
         person.navn = "Test Testesen";
+        person.alder = 18;
         person.by = "Næstved";
         person.postNummer = 4700;
         person.vej = "Fenøvej";
@@ -60,10 +60,9 @@ public class Person {
         person.eksamensKarakterer[3] = 4;
         person.eksamensKarakterer[4] = 2;
         person.eksamensKarakterer[5] = 10;
-        person.opdateretDato = new Date(555555555);
-        System.out.println();
+        person.opdateretDato = new Date(78, 0, 8, 0, 0, 0);
 
-        System.out.println(person.opdateretDato);
+        System.out.println();
 
         System.out.println(person.toString());
     }
