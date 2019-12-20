@@ -1,12 +1,5 @@
 import java.util.Scanner;
 
-/**
- * Developed by András Ács (acsandras@gmail.com)
- * Zealand / www.zealand.dk
- * Licensed under the MIT License
- * 17/12/2019
- */
-
 public class Loops {
 
     private String brugere[] = {"Anders", "Birgit", "Carsten", "Dennis", "Esben"};

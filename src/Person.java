@@ -1,13 +1,5 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Date;
-
-/**
- * Developed by András Ács (acsandras@gmail.com)
- * Zealand / www.zealand.dk
- * Licensed under the MIT License
- * 18/12/2019
- */
 
 public class Person {
 

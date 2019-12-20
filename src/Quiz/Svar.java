@@ -19,8 +19,8 @@ public class Svar implements Translatable {
         this.svar = svar;
     }
 
-    // Da svar er en klasse, som indeholder en string, vil jeg gerne kunne returnere dens String, når jeg bruger
-    // toString()-metoden. Derfor skal toString()-metoden overrides.
+    /**Da svar er en klasse, som indeholder en string, vil jeg gerne kunne returnere dens String, når jeg bruger
+    toString()-metoden. Derfor skal toString()-metoden overrides.*/
     @Override
     public String toString(){
         return svar;
