@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Developed by András Ács (acsandras@gmail.com)
  * Zealand / www.zealand.dk
@@ -27,7 +29,10 @@ public class Loops {
      */
     public void printBrugereArr() {
 
-        // TODO Din kode her
+        for (int i = 0; i < brugere.length; i++) {
+            System.out.print(brugere[i] + " ");
+        }
+        System.out.println();
     }
 
     /**
@@ -35,13 +40,19 @@ public class Loops {
      */
     public void printBrugereReverseArr() {
 
-        // TODO Din kode her
-
+        for (int i = brugere.length-1; i >= 0; i--) {
+            System.out.print(brugere[i] + " ");
+        }
+        System.out.println();
     }
 
     public void waitingFor0() {
-
-        // TODO Din kode her
- 
+        int brugerInput = 1;
+        Scanner input = new Scanner(System.in);
+        while(brugerInput!=0){
+            System.out.print("Venter på 0! Skriv et tal... ");
+            brugerInput = input.nextInt();
+        }
+        System.out.println("Du har tastet 0. Så er det slut!");
     }
 }
